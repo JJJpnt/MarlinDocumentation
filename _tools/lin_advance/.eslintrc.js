@@ -57,10 +57,7 @@ module.exports = {
     "id-blacklist": "error",
     "id-length": "off",
     "id-match": "error",
-    "indent": [
-      "error",
-      2, { "VariableDeclarator": 2 }
-    ],
+    "indent": ["error", 2],
     "init-declarations": "off",
     "jsx-quotes": "error",
     "key-spacing": "off",
@@ -205,7 +202,7 @@ module.exports = {
     "semi": "error",
     "semi-spacing": "error",
     "sort-imports": "error",
-    "sort-vars": "off",
+    "sort-vars": "error",
     "space-before-blocks": "off",
     "space-before-function-paren": "off",
     "space-in-parens": [
